@@ -3,7 +3,7 @@ terraform {
     bucket         = "emmadevsecopsproj"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "devsecopsDB-emmanuel"
+    dynamodb_table = "EKS-TFDB"
     encrypt        = true
   }
   required_version = ">=0.13.0"
