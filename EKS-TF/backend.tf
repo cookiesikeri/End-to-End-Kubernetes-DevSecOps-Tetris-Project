@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "emmadevsecopsproj"
+    bucket         = "efkstfstatefile1001"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "EKS-TFDB"
